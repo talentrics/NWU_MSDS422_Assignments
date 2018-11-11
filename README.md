@@ -23,3 +23,7 @@ This exercise builds on the linear regression models we developed for assignment
 ## Assignment 5 - Muilti Class Models (MNIST)
 
 This exercise uses a random forest learning method for multiclass prediction of handwritten digits in the MNIST dataset. (https://en.wikipedia.org/wiki/MNIST_database) The challenge is to build a model that successfully assigns a predicted digit value that is equal to the handwritten one, while keeping the number of variables to a minimum to reduce processing times.  The model techniques use RandomForestClassifier, and compares compute times when using all potential variables or a reduced data set using a PCA model that accounts for 95% of the variation in the data.  For cross validation, we consider average F1 and precision scores as well as a confusion matrix to visually represent the multi-class output accuracy. 
+
+## Assignment 6 - Artificial Neural Networks (MNIST)
+
+Assignment 6 builds on the analysis of assignment #5, and requires the application of an artificial neural network (ANN) for prediction of handwritten digits in the MNIST dataset.  In this assignment, we apply the TensorFlow DNNClassifier instead of SciKit Learn’s Random Forest Classifer.  The analysis looks at how changing the number of hidden layers and neurons within each layer impacts the amount of time it takes to train the model relative to the accuracy of the estimated output.
