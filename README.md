@@ -27,3 +27,7 @@ This exercise uses a random forest learning method for multiclass prediction of 
 ## Assignment 6 - Artificial Neural Networks (MNIST)
 
 Assignment 6 builds on the analysis of assignment #5, and requires the application of an artificial neural network (ANN) for prediction of handwritten digits in the MNIST dataset.  In this assignment, we apply the TensorFlow DNNClassifier instead of SciKit Learn’s Random Forest Classifer.  The analysis looks at how changing the number of hidden layers and neurons within each layer impacts the amount of time it takes to train the model relative to the accuracy of the estimated output.
+
+## Assignment 7 - Convolutional Neural Networks (Cats vs. Dogs)
+
+Assignment 7 builds on the models used for assignment #6 but with a different data set.  The objective of the analysis is to build a neural network that accurately classifies images of cats and dogs.  The data set is a sub-set of the data used in the kaggle competition.  It contains 1000 cat pictures and 1000 dog pictures.  The example goes through the steps to prepare the data and assign values to Numpy arrays to concatenate, shape and scale the data easily.  We then apply the layered DNN models developed for the previous assignment.  The performance of those models is poor, so in the third model we apply convolution (filter) layers and the results are much better.
